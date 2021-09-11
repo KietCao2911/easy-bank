@@ -1,0 +1,42 @@
+.articles{
+	padding-top:10rem;
+	padding-bottom: 10rem;
+}
+.articles__group{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+	margin:5rem -1rem 0;
+}
+.articles__title{
+
+}
+.articles__blog{
+	flex:1 1 10rem;
+	display: flex;
+	padding: 0 1rem;
+	flex-direction: column;
+	justify-content: center;
+}
+.blog__content{
+	padding: 1rem;
+}
+.img__blog{
+	border-radius: .4rem;
+}
+.blog__title{
+font-size: 1.5rem;
+margin-top:1rem;
+
+}
+.blog__author{
+font-size: 1rem;
+font-weight: normal;
+}
+.blog__p{
+	margin-top: .5rem;
+font-size: 1.3rem;
+font-weight: normal;
+line-height: 1.8rem;
+}

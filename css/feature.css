@@ -1,0 +1,44 @@
+
+.fearture{
+	/*min-height: 100vh;*/
+	background-color: hsl(220, 16%, 96%);
+	padding: 15rem 0;
+}
+/*FEATURE TOP START*/
+.feature__top{
+	margin-top:3rem;
+}
+.top__title{
+	color: hsl(233, 26%, 24%);	
+	font-weight: 300;	
+}
+.top__p{
+padding: 3rem 0;
+color: rgba(0,0,0,0.3);
+}
+/*FEATURE TOP END*/
+
+/*FEATURE BOT START*/
+
+.feature__bot{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
+	grid-column-gap: 2rem;
+
+}
+.card{
+
+}
+.icon__card{
+width:8rem;
+height: 8rem; 
+}
+.card__title{
+color: rgba(0,0,0,0.6);
+padding-top: 3rem;
+}
+.card__p{
+padding:3rem 0;
+font-size: 1.5rem;
+color:rgba(0,0,0,0.3);
+}
