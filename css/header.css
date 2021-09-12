@@ -6,13 +6,15 @@
 	position: relative;
 	z-index: 1;
 }
+
 .headerpd{
 	padding-top:3rem;
 	padding-bottom: 3rem;
 }
 .icon--menu{
-	width: 2rem;
+	width: 2.5rem;
 	height: 2rem;
+	display: none;
 }
 .nav__list .nav__item{
 	margin: 0 1rem;
