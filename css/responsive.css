@@ -82,3 +82,11 @@
 	}
 
 }
+@media (max-width: 350px){
+	html{
+		font-size: 40%;
+	}
+	section{
+		padding: 0 2%;
+	}
+}
